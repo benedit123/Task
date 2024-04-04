@@ -1,0 +1,62 @@
+* {
+    font-family: "Balthazar", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#head {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#q1 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    height: 30px;
+}
+
+input {
+    border: 2px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+    height: 20px;
+    color: orangered;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+button {
+    border: 3px solid rgb(255, 165, 0);
+    height: 45px;
+    width: 100px;
+    background-color: white;
+    font-size: 14px;
+    color: black;
+    margin-top: 30px;
+    gap: 100px;
+
+
+}
+
+#final {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button:hover {
+    background-color: orangered;
+    border: 2px solid white;
+    box-shadow: 1px 1px 15px 1px orangered;
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: "Balthazar", serif;
+    /* border: 1px solid black; */
+}
+
+nav {
+    height: 80px;
+    background-color: rgb(245, 120, 57);
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(245, 245, 244);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: 1px 1px 10px 1px rgb(245, 120, 57);
+    gap: 700px;
+}
+
+#heading {
+    color: white;
+    margin-top: 30px;
+    font-family: "Balthazar", serif;
+}
+
+#backButton {
+    color: white;
+    margin-top: 35px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#backButton:hover {
+    transform: scale(1.1);
+
+}
+
+.fa-arrow-left {
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+#myCotent {
+    border: 1px solid black;
+    height: 143vh;
+}
+
+#trainingContent {
+    text-align: center;
+    color: orangered;
+    margin-top: 30px;
+    display: inline-block;
+    border: 3px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#hdng {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+form {
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input {
+    height: 25px;
+    border-radius: 10px;
+    width: 400px;
+    font: 20px;
+    border: 1px solid orangered;
+    padding-left: 30px;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+#or {
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 50%;
+    top: 240px;
+}
+
+#detail {
+    text-align: center;
+    color: orangered;
+    margin-top: 40px;
+}
+
+button {
+    border: 3px solid orangered;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    color: black;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+#tab {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 1px solid orangered;
+    border-radius: 5px;
+    height: 200px;
+    padding: 30px;
+    width: 90%;
+}
+
+td {
+    /* border: 1px solid black; */
+    padding-left: 30px;
+}
+
+#op {
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#ot {
+    display: inline-block;
+    border: 3px solid orangered;
+    height: 30px;
+    width: 150px;
+    top: 450px;
+    background-color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 15px;
+
+}
+
+#ot:hover {
+    background-color: orangered;
+    border: 2px solid white;
+    box-shadow: 1px 1px 15px 1px orangered;
+    cursor: pointer;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    /* border: 1px solid black; */
+    height: 40px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: orangered;
+}

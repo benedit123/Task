@@ -1,0 +1,198 @@
+* {
+    margin: 0px;
+    padding: 0;
+    /* border: 1px solid black; */
+
+}
+
+
+
+nav {
+    height: 80px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(245, 245, 244);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: 1px 1px 10px 1px rgb(255, 165, 0);
+    gap: 700px;
+}
+
+/* body {
+    background-color: rgb(255, 165, 0);
+} */
+
+#heading {
+    color: white;
+    margin-top: 30px;
+    font-family: "Balthazar", serif;
+}
+
+#backButton {
+    color: white;
+    margin-top: 35px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#backButton:hover {
+    transform: scale(1.1);
+
+}
+
+#skillCardParent {
+    height: 100vh;
+}
+
+.fa-arrow-left {
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+form {
+    background-color: rgb(245, 120, 57);
+
+
+}
+
+#gettingDetails {
+    height: 50%;
+    width: 99%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.cards {
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px rgb(255, 165, 0);
+    color: white;
+    text-align: center;
+
+}
+
+#form1Head {
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Balthazar", serif;
+    scroll-behavior: smooth;
+}
+
+table {
+    margin-top: 40px;
+}
+
+td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    padding-left: 30px;
+}
+
+#nopadding {
+    padding-left: 0px;
+}
+
+#or {
+    margin-left: 100px;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#submitt1 {
+    border: 3px solid rgb(252, 251, 251);
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    color: black;
+}
+
+#submitt {
+    border: 3px solid rgb(252, 251, 251);
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    font-size: 14px;
+    margin-top: 40px;
+    color: black;
+}
+
+input {
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(245, 120, 57);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+#generatedCard {
+    border: 3px solid rgb(255, 165, 0);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    height: 100vh;
+    font-family: "Balthazar", serif;
+    scroll-behavior: smooth;
+}
+
+#gcard {
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+#detailsOfcard {
+    border: 1px solid rgb(255, 165, 0);
+    height: 450px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    color: gray;
+    font-family: "Balthazar", serif;
+    scroll-behavior: smooth;
+}
+
+#hello {
+    text-align: center;
+}
+
+th {
+    padding-left: 20px;
+}
+
+button {
+    border: 3px solid rgb(255, 165, 0);
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    color: black;
+
+}
+
+#btn {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
